@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="btn-primary">
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="https://img.freepik.com/free-photo/pair-trainers_144627-3800.jpg?t=st=1723462369~exp=1723465969~hmac=0f48e5f193d2ab4d15453c4045953c00d274d3a7906f8f5e615557d86e5f5f7d&w=740" alt="Shoe Store Logo" class="logo" style="width: 150px;">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-light text-center py-5">
+        <div class="container">
+            <h1>Welcome to Shoe Store</h1>
+            <p>Find your perfect pair of shoes!</p>
+        </div>
+    </section>
+
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?w=740&t=st=1723463397~exp=1723463997~hmac=9fbb7db822394a89685ba45a8f6ab01c6ce3197d6be3b53c6d618fd6b4b5a054" class="card-img-top" alt="Running Shoes">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Running Shoes</h5>
+                            <p class="card-text">$50.00</p>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/shoe2.jpg" class="card-img-top" alt="Formal Shoes">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Formal Shoes</h5>
+                            <p class="card-text">$80.00</p>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/shoe3.jpg" class="card-img-top" alt="Sneakers">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sneakers</h5>
+                            <p class="card-text">$60.00</p>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
